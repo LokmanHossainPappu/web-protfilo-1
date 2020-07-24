@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:monospace;
+    font-family: 'Sora', sans-serif;
+}
+.container{
+height: 500px;
+background:url(img/top-banner.png);
+background-repeat: no-repeat;
+padding-bottom: 20px;
+
+}
+.content1{
+width: 40%;
+margin-left: 5%;
+padding-left: 2%;
+float: left;
+}
+.content1 img{
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding: ;
+}
+span{
+    color:orange;
+}
+h2{
+    font-size: 30px;
+}
+
+.second-part{
+    background-image: url(img/dream-bg.png);
+height: 500px;
+background-repeat: no-repeat;
+background-position: right;
+}
+#DD{
+    border-left: 7px solid;
+border-radius: 2px;
+border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 100%;
+border-image-slice: 1;
+}
+.single{
+ box-shadow: 10px 10px 40px gray;
+border-radius: 5px;
+height: 50%;
+background-color: white
+}
+#DT{
+    border-left: 7px solid;
+border-radius: 2px;
+border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 100%;
+border-image-slice: 1
+}
+.third-part{
+    height: 400px;
+}
+.name{
+    padding-bottom: 30px;
+
+}
+footer{
+    color: orange;
+    text-align: center;
+    height: 100px;
+    background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.last{
+    padding: 30px;
+    color: white;
+}
